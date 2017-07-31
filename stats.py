@@ -139,11 +139,11 @@ def print_youngest():
 def get_rank_bmi_percentage_loss(user, team=ALL_TEAMS):
     """ returns the rank of a user in the weight loss top """
     return get_rank(user, "bmi_percentage_loss", team=team)
-    
+
 def get_rank_bmi_loss(user, team=ALL_TEAMS):
     """ returns the rank of a user in the weight loss top """
     return get_rank(user, "bmi_loss", team=team)
-    
+
 def get_rank_weight_percentage_loss(user, team=ALL_TEAMS):
     """ returns the rank of a user in the weight percentage loss top """
     return get_rank(user, "weight_percentage_loss", team=team)
