@@ -1,0 +1,51 @@
+This is an example on how data.json is organized.
+
+{
+    "ddryhten": {
+        "age": "25", 
+        "height": "69.68", 
+        "team": "Wonder Woman", 
+        "weeks": [
+            {
+                "name": "Week 0", 
+                "timestamp": "6/17/2017 6:04:05", 
+                "weight": "167.77"
+            }, 
+            {
+                "name": "Week 1", 
+                "timestamp": "6/24/2017 1:17:26", 
+                "weight": "164.9"
+            }, 
+            {
+                "name": "Week 2", 
+                "timestamp": "7/1/2017 5:19:10", 
+                "weight": "162.2602"
+            }, 
+            {
+                "name": "Week 3", 
+                "timestamp": "7/9/2017 10:26:57", 
+                "weight": "162.92"
+            }, 
+            {
+                "name": "Week 4", 
+                "timestamp": "7/15/2017 14:32:38", 
+                "weight": "158.95"
+            }, 
+            {
+                "name": "Week 5", 
+                "timestamp": "7/22/2017 10:43:36", 
+                "weight": "156.74"
+            }, 
+            {
+                "name": "Week 6", 
+                "timestamp": "7/29/2017 14:14:29", 
+                "weight": "153.88"
+            }
+        ]
+    },
+    "user2": ...
+    ...
+}
+
+For example, if you load the json as users, then users["ddryhten"] will return
+the above dict etc.
