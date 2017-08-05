@@ -18,6 +18,7 @@ with open("data.json", "r") as f:
     users = json.load(f)
 
 # some users had typos when entering weights
+# TODO add reasons as well
 ignored_users = ["Ott3r", "Rvaughangeib", "bassi123"]
 
 def main():
