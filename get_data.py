@@ -63,7 +63,7 @@ for i in xrange(0, num_rows):
 
 # get each week weight-in + timestamp
 # TODO smth better than this
-WEEK_ROWS = [2027, 1677, 1373, 1380, 1003, 909, 221]
+WEEK_ROWS = [2027, 1677, 1373, 1380, 1003, 909, 891]
 first_week = 0
 last_week = 6
 
